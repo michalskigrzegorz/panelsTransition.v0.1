@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: red;
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 2em;	
+	margin-left: 40%;
+}
+
+.nav {
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	z-index: 999;
+}
+
+#container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #990;
+	z-index: 1;
+}
+
+#homeLeft {
+	position: absolute;
+	left: -66%;
+	top: 0%;
+	width: 66%;
+	height: 100%;
+	background-color: brown;
+	z-index: 2;
+}
+
+#homeRight {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	width: 34%;
+	height: 100%;
+	background-color: green;
+	z-index: 2;
+}
+
+#portfolioLeft {
+	position: absolute;
+	left: -66%;
+	top: 0%;
+	width: 66%;
+	height: 100%;
+	background-color: blue;
+	z-index: 2;
+}
+
+#portfolioRight {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	width: 34%;
+	height: 100%;
+	background-color: yellow;
+	z-index: 2;
+}
+
+#aboutLeft {
+	position: absolute;
+	left: -66%;
+	top: 0%;
+	width: 66%;
+	height: 100%;
+	background-color: orange;
+	z-index: 2;
+}
+
+#aboutRight {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	width: 34%;
+	height: 100%;
+	background-color: grey;
+	z-index: 2;
+}
+
+#contactLeft {
+	position: absolute;
+	left: -66%;
+	top: 0%;
+	width: 66%;
+	height: 100%;
+	background-color: brown;
+	z-index: 2;
+}
+
+#contactRight {
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	width: 34%;
+	height: 100%;
+	background-color: purple;
+	z-index: 2;
+}
